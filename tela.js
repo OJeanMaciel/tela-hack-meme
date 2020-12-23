@@ -11,7 +11,7 @@ function sleep(ms) {
             alert('Acesso Aprovado!')
             
             for ( var i = 0; i < 101; i += 10) {
-                document.write('Loading ' + [i] +'% ... <br/>')
+                document.write('Loading ' + [i] +' % ... <br/>')
                 await sleep(2000);
             };
             document.write('Hackeado com Sucesso!')
